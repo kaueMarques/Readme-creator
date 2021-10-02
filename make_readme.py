@@ -36,14 +36,16 @@ welcome()
 strProjectName = input("Project Name: ")
 strShortDescription = input("Short Description: ")
 strDescription = input("Description: ")
-
+strTechUsada = input("Tech Usada: ")
+strCorTags = input("Cor Tags: ")
 
 
 strMarkdown +=  Tags.makeDiv('Header', 'center',
 
     makeTag('h1', strProjectName)
     + makeText('p','i','center', strShortDescription)
-    + makeShild('docker', 'blue')
+    + makeShild(strTechUsada, strCorTags)
+    
 )
 
 
@@ -67,9 +69,10 @@ strMarkdown +=  Tags.makeDiv('Instalation', 'left',
     makeTag('h1', '📦 Instalation')
     + makeTag('h3', 'Requisites: ')
     + makeList('step ')
+    + makeTag('h3', 'Instalation: ')
+    + makeList('step ')
 
 )
-
 
 print(strMarkdown)
 

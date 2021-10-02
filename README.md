@@ -3,12 +3,49 @@
 <div align="center" class="Header">
 
  		
-<h1>Readme creator</h1>
+<h1>Criador de readme</h1>
 	
 
-<p align="center"> <i> Automatic Read-me creator </i> </p>
+<p align="center"> <i> criador automatizado de readme </i> </p>
 	
 ![python](https://img.shields.io/badge/python-blue.svg?style=for-the-badge&logo=python&logoColor=white)
+ 
+
+</div>
+
+
+<div align="left" class="Galery">
+
+ 		
+<h1>🖼️ Image Showcase</h1>
+	<img src="https://readme.com/static/brandkit/readme-blue.png" alt="https://readme.com/static/brandkit/readme-blue.png" align="center">
+	<img src="https://readme.com/static/brandkit/readme-blue.png" alt="https://readme.com/static/brandkit/readme-blue.png" align="center">
+ 
+
+</div>
+
+
+<div align="left" class="FullDescription">
+
+ 		
+<h1>📖 Description</h1>
+		
+<p>esse projeto foi criado para automatizar a criação de readme, e também na criação de templates para a comunidade dev, se utilizando da linguagem python</p>
+ 
+
+</div>
+
+
+<div align="left" class="Instalation">
+
+ 		
+<h1>📦 Instalation</h1>
+		
+<h3>Requisites: </h3>
+		
+<li>inicie o app</li>
+		
+<h3>Instalation: </h3>
  
 
 </div>
