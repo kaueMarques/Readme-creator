@@ -19,7 +19,6 @@
  		
 <h1>🖼️ Image Showcase</h1>
 	<img src="https://readme.com/static/brandkit/readme-blue.png" alt="https://readme.com/static/brandkit/readme-blue.png" align="center">
-	<img src="https://readme.com/static/brandkit/readme-blue.png" alt="https://readme.com/static/brandkit/readme-blue.png" align="center">
  
 
 </div>
@@ -43,9 +42,11 @@
 		
 <h3>Requisites: </h3>
 		
-<li>inicie o app</li>
+<li>Python 3</li>
 		
 <h3>Instalation: </h3>
- 
+	
+ <li>Apenas clone o app e rode o make_readme.py</li>
+
 
 </div>
