@@ -14,7 +14,7 @@
 </div>
 
 
-<div align="left" class="Galery">
+<div align="left" class="Gallery">
 
  		
 <h1>🖼️ Image Showcase</h1>
@@ -35,18 +35,16 @@
 </div>
 
 
-<div align="left" class="Instalation">
+<div align="left" class="Installation">
 
- 		
-<h1>📦 Instalation</h1>
+<h1>📦 Installation</h1>
 		
-<h3>Requisites: </h3>
+<h3>Requeriments: </h3>
 		
 <li>Python 3</li>
 		
-<h3>Instalation: </h3>
+<h3>Usage: </h3>
 	
- <li>Apenas clone o app e rode o make_readme.py</li>
-
+<li>Apenas clone o app e rode o make_readme.py</li>
 
 </div>
