@@ -1,5 +1,5 @@
 ##############################W###############
-#Variables
+# Variables
 
 strMarkdown = """"""
 lines = "="*10
@@ -37,19 +37,19 @@ strProjectName = input("Project Name: ")
 strShortDescription = input("Short Description: ")
 strDescription = input("Description: ")
 strTechUsada = input("Tech Usada: ")
-strCorTags = input("Cor Tags: ")
+strColorTags = input("Color Tags: ")
 
 
 strMarkdown +=  Tags.makeDiv('Header', 'center',
 
     makeTag('h1', strProjectName)
     + makeText('p','i','center', strShortDescription)
-    + makeShild(strTechUsada, strCorTags)
+    + makeShild(strTechUsada, strColorTags)
     
 )
 
 
-strMarkdown += Tags.makeDiv('Galery', 'left',
+strMarkdown += Tags.makeDiv('Gallery', 'left',
 
     makeTag('h1', '🖼️ Image Showcase')
     +makeIMGList()
@@ -64,12 +64,12 @@ strMarkdown +=  Tags.makeDiv('FullDescription', 'left',
 )
 
 
-strMarkdown +=  Tags.makeDiv('Instalation', 'left',
+strMarkdown +=  Tags.makeDiv('Installation', 'left',
 
-    makeTag('h1', '📦 Instalation')
-    + makeTag('h3', 'Requisites: ')
+    makeTag('h1', '📦 Installation')
+    + makeTag('h3', 'Requirements: ')
     + makeList('step ')
-    + makeTag('h3', 'Instalation: ')
+    + makeTag('h3', 'Usage: ')
     + makeList('step ')
 
 )
