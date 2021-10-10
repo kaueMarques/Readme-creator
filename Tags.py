@@ -32,7 +32,13 @@ def makeHiddenElement(strTitle: str, strElements: str):
 
 
 def makeVideo(strLink: str):
-    return strLink
+    
+    ID_VIDEO:str=strLink[17:]
+    if strLink[14:16] != "be":
+        ID_VIDEO = strLink[32:]
+    
+    return f"[![CLICK TO WATCH!](https://img.youtube.com/vi/{ID_VIDEO}/0.jpg)](https://youtu.be/{ID_VIDEO} \"CLICK TO WATCH!\")"
+
 
 
 def makeCommand(strCommand: str):
@@ -54,7 +60,6 @@ def makeIMGList():
     strFormatedMD = """"""
 
     strIMG = input("Image URL/Dir: ")
-    strNameIMG = input("Image URL/Dir: ")
 
     while strIMG != "":
         strFormatedMD += makeIMG(strNameIMG, 'center', strIMG)
@@ -64,21 +69,17 @@ def makeIMGList():
     return strFormatedMD
 
 
-def makeTechList():
+# def makeTechList():
     
-    techList = {'':''}
-    
-
-    strTechName = input("Tech Name: ")
-    strTechColor = input("Tech Color: ")
-
-    while strTechName != "" or strTechColor != "":
-        str
-
+#     techList = {'':''}
     
 
-    return ""
+#     strTechName = input("Tech Name: ")
+#     strTechColor = input("Tech Color: ")
 
+#     while strTechName != "" or strTechColor != "":
+#         str
 
+    
 
-
+#     return ""
